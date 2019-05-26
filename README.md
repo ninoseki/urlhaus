@@ -1,5 +1,8 @@
 # urlhaus
 
+[![Build Status](https://travis-ci.org/ninoseki/urlhaus.svg?branch=master)](https://travis-ci.org/ninoseki/urlhaus)
+[![Coverage Status](https://coveralls.io/repos/github/ninoseki/urlhaus/badge.svg?branch=master)](https://coveralls.io/github/ninoseki/urlhaus?branch=master)
+
 [URLHaus](https://urlhaus.abuse.ch/) query API wrapper for Ruby.
 
 ## Installation
