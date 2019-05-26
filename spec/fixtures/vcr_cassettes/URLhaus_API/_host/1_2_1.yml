@@ -1,0 +1,1669 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://urlhaus-api.abuse.ch/v1/host/
+    body:
+      encoding: US-ASCII
+      string: host=vektorex.com
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - urlhaus-api.abuse.ch
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 May 2019 07:34:18 GMT
+      Server:
+      - Apache/2
+      Strict-Transport-Security:
+      - max-age=15768000 ; includeSubDomains
+      Feature-Policy:
+      - accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera
+        'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope
+        'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none';
+        picture-in-picture 'none'; speaker 'none'; usb 'none'; vr 'none'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - 'default-src ''self''; script-src ''self''; img-src ''self'' data: https://www.google-analytics.com:443;
+        style-src ''self''; object-src ''none'''
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=300
+      Expires:
+      - Sat, 25 May 2019 07:39:18 GMT
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - sameorigin
+      Content-Length:
+      - '3512'
+      Content-Type:
+      - text/html
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "query_status": "ok",
+            "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/host\/vektorex.com\/",
+            "host": "vektorex.com",
+            "firstseen": "2019-01-15 07:09:01 UTC",
+            "url_count": "124",
+            "blacklists": {
+                "spamhaus_dbl": "not listed",
+                "surbl": "not listed"
+            },
+            "urls": [
+                {
+                    "id": "124617",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/124617\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/86010322.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-14 18:02:23 UTC",
+                    "threat": "malware_download",
+                    "reporter": "Techhelplistcom",
+                    "larted": "true",
+                    "takedown_time_seconds": "46393",
+                    "tags": [
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "124195",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/124195\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/25061013.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-14 06:39:08 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "1681",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "123432",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/123432\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/File_54115.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-13 13:11:25 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "150389",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121476",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121476\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/10874000.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 11:00:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "14832",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121319",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121319\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/5016223.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 07:45:05 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "26599",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121316",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121316\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/Order%20839.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:47:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "30080",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "121315",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121315\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/1205899.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:39:08 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "30558",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121314",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121314\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/9508137.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:39:06 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "30558",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121313",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121313\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/13020587.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:39:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "30558",
+                    "tags": [
+                        "exe",
+                        "Formbook"
+                    ]
+                },
+                {
+                    "id": "121308",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121308\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/1447410.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:17:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "31879",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "121307",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121307\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/02601638.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:08:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "32359",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "121306",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/121306\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/2591788.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-11 06:04:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "32599",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "120906",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/120906\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/20628871.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-10 09:38:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "106167",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "120654",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/120654\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/10362887.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-09 12:27:11 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "180802",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "120589",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/120589\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/10578830.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-09 07:33:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "198450",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "120229",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/120229\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/65008871.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-08 14:49:09 UTC",
+                    "threat": "malware_download",
+                    "reporter": "c_APT_ure",
+                    "larted": "true",
+                    "takedown_time_seconds": "258718",
+                    "tags": [
+                        "doc",
+                        "emotet"
+                    ]
+                },
+                {
+                    "id": "120171",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/120171\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/26098113.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-08 12:47:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "JAMESWT_MHT",
+                    "larted": "true",
+                    "takedown_time_seconds": "266043",
+                    "tags": [
+                        "AZORult"
+                    ]
+                },
+                {
+                    "id": "119834",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/119834\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/220518.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-08 05:40:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "dvk01uk",
+                    "larted": "true",
+                    "takedown_time_seconds": "291628",
+                    "tags": [
+                        "Loki",
+                        "lokibot"
+                    ]
+                },
+                {
+                    "id": "119573",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/119573\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/REPORT.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-07 18:27:02 UTC",
+                    "threat": "malware_download",
+                    "reporter": "de_aviation",
+                    "larted": "true",
+                    "takedown_time_seconds": "332084",
+                    "tags": [
+                        "exe",
+                        "NanoCore",
+                        "quasar",
+                        "QuasarRAT",
+                        "rat"
+                    ]
+                },
+                {
+                    "id": "118850",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118850\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/bin001.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:57 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118849",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118849\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/PcHealth_agent_Protected.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:55 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118848",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118848\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/INVOICE-6807.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:53 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118847",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118847\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/INVOICE-0013058.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:50 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118846",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118846\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/910454468.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:49 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118845",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118845\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/87980213.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:47 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399116",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118844",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118844\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/87451003.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:45 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118843",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118843\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/8700601.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:44 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118842",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118842\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/79201228.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:42 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118841",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118841\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/7865520.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:40 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118840",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118840\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/7288716.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:39 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118839",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118839\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/65039871.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:38 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118838",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118838\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/603218779.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:36 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118837",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118837\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/6018.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:35 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118836",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118836\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/5908071.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:33 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118835",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118835\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/5907071.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:31 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118834",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118834\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/58902617.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:29 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118833",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118833\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/57759477696.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:27 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "HawkEye",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118832",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118832\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/56087773.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:26 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118831",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118831\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/508980.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:23 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118830",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118830\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/50860307.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:22 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118829",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118829\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/3500881.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:20 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118828",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118828\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/25870965.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:18 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118827",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118827\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/25559810.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:16 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118826",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118826\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/206589071.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:14 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399117",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118825",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118825\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/150587796.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:12 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118824",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118824\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/117700603.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:11 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118823",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118823\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/087023106.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:09 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118822",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118822\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/042251.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118821",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118821\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/0255069.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:05 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118820",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118820\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/0158088.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118819",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118819\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/002036219.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 23:51:02 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "399118",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118712",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118712\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/nel.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 19:36:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "414368",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118708",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118708\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/11105716.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 19:25:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "415088",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118588",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118588\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/206571108.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 17:16:11 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "422771",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "118299",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118299\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/98785100.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 10:36:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "446788",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "118004",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/118004\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/960741.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-06 00:48:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "482086",
+                    "tags": [
+                        "exe",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117713",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117713\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/oj105.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 16:54:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "de_aviation",
+                    "larted": "true",
+                    "takedown_time_seconds": "510541",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "117414",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117414\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/750130882.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 07:31:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "dvk01uk",
+                    "larted": "true",
+                    "takedown_time_seconds": "544391",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot"
+                    ]
+                },
+                {
+                    "id": "117365",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117365\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/90013257.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 05:11:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "552799",
+                    "tags": [
+                        "exe",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117364",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117364\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/78451200.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 05:08:06 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "552918",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117363",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117363\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/880125337.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 05:00:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "553399",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117328",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117328\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/98601327.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 02:59:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "560720",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117318",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117318\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/5809132.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-05 02:20:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "563001",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117199",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117199\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/58704110.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 22:21:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "577409",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117136",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117136\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/02059811.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 20:40:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "583414",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117135",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117135\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/18807003.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 20:32:12 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "583893",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117093",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117093\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/105879.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:57:12 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "586055",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117086",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117086\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/bbin.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:49:15 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "586534",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117083",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117083\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/File-01337.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:48:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "586534",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117063",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117063\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/bb3.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:42:09 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "586899",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117059",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117059\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/1506778.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:29:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "587738",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117053",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117053\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/10687789.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:16:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "588458",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117052",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117052\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/MONEY_Protected.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:12:13 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "588700",
+                    "tags": [
+                        "exe",
+                        "payload",
+                        "rat",
+                        "remcos",
+                        "RemcosRAT"
+                    ]
+                },
+                {
+                    "id": "117043",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117043\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/101.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 19:02:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "589300",
+                    "tags": [
+                        "exe",
+                        "Formbook",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "117032",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/117032\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/12304788.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 18:26:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "591460",
+                    "tags": [
+                        "exe",
+                        "Loki",
+                        "lokibot",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "116982",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116982\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/98740135.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 17:28:18 UTC",
+                    "threat": "malware_download",
+                    "reporter": "de_aviation",
+                    "larted": "true",
+                    "takedown_time_seconds": "594941",
+                    "tags": null
+                },
+                {
+                    "id": "116868",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116868\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/9081103.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 15:00:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "c_APT_ure",
+                    "larted": "true",
+                    "takedown_time_seconds": "603819",
+                    "tags": null
+                },
+                {
+                    "id": "116834",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116834\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/File-0513.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 14:47:11 UTC",
+                    "threat": "malware_download",
+                    "reporter": "shotgunner101",
+                    "larted": "true",
+                    "takedown_time_seconds": "604669",
+                    "tags": [
+                        "AZORult",
+                        "exe",
+                        "payload",
+                        "stage2"
+                    ]
+                },
+                {
+                    "id": "116821",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116821\/",
+                    "url": "http:\/\/vektorex.com:80\/source\/Z\/remcos_agent_Protected.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 14:22:11 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "606110",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "116775",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116775\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/958102577.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 13:25:09 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "609588",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "116683",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116683\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/16057840.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 11:56:05 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "614873",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "116680",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116680\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/13058977.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 11:55:04 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "614994",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "116631",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116631\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/15603887.png",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 07:48:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "ffforward",
+                    "larted": "true",
+                    "takedown_time_seconds": "629757",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "116558",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116558\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/2031588.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-04 07:00:39 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "632651",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "116086",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/116086\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/remcos_agent_Protected.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-02 13:16:21 UTC",
+                    "threat": "malware_download",
+                    "reporter": "de_aviation",
+                    "larted": "true",
+                    "takedown_time_seconds": "782959",
+                    "tags": [
+                        "exe",
+                        "rat",
+                        "remcos",
+                        "RemcosRAT"
+                    ]
+                },
+                {
+                    "id": "115347",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/115347\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/2098741.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-02-01 14:30:08 UTC",
+                    "threat": "malware_download",
+                    "reporter": "stoerchl",
+                    "larted": "true",
+                    "takedown_time_seconds": "864972",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "115123",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/115123\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/6038811.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-02-01 06:43:12 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "893075",
+                    "tags": [
+                        "exe",
+                        "Formbook"
+                    ]
+                },
+                {
+                    "id": "114587",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/114587\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/05236199.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-01-31 13:02:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "956719",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "114519",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/114519\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/20659117.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-31 10:18:05 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "966564",
+                    "tags": [
+                        "exe",
+                        "Loki"
+                    ]
+                },
+                {
+                    "id": "114496",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/114496\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/0115257.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-01-31 08:41:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "972447",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "113656",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/113656\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/107895085.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-30 11:03:02 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "1050385",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "111197",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/111197\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/65023771.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-01-27 08:16:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "1319768",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "111196",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/111196\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/60091587.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-01-27 08:12:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "1320006",
+                    "tags": [
+                        "exe",
+                        "Formbook"
+                    ]
+                },
+                {
+                    "id": "111182",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/111182\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/7460138.exe",
+                    "url_status": "offline",
+                    "date_added": "2019-01-27 08:08:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "abuse_ch",
+                    "larted": "true",
+                    "takedown_time_seconds": "1320247",
+                    "tags": [
+                        "exe",
+                        "Formbook"
+                    ]
+                },
+                {
+                    "id": "109341",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/109341\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/6588910.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-24 13:53:07 UTC",
+                    "threat": "malware_download",
+                    "reporter": "oppimaniac",
+                    "larted": "true",
+                    "takedown_time_seconds": "1558131",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "106907",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/106907\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/582681109.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-22 06:58:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "zbetcheckin",
+                    "larted": "true",
+                    "takedown_time_seconds": "2073935",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "106906",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/106906\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/50289713.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-22 06:56:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "zbetcheckin",
+                    "larted": "true",
+                    "takedown_time_seconds": "2074058",
+                    "tags": [
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "106905",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/106905\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/9110562.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-22 06:51:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "zbetcheckin",
+                    "larted": "true",
+                    "takedown_time_seconds": "2074418",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "106904",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/106904\/",
+                    "url": "http:\/\/vektorex.com\/source\/Z\/80203177.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-22 06:46:03 UTC",
+                    "threat": "malware_download",
+                    "reporter": "zbetcheckin",
+                    "larted": "true",
+                    "takedown_time_seconds": "1756551",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                },
+                {
+                    "id": "106901",
+                    "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/106901\/",
+                    "url": "http:\/\/vektorex.com\/jobs\/cgi\/80013525.jpg",
+                    "url_status": "offline",
+                    "date_added": "2019-01-22 06:29:10 UTC",
+                    "threat": "malware_download",
+                    "reporter": "zbetcheckin",
+                    "larted": "true",
+                    "takedown_time_seconds": "2075739",
+                    "tags": [
+                        "AZORult",
+                        "exe"
+                    ]
+                }
+            ]
+        }
+    http_version: 
+  recorded_at: Sat, 25 May 2019 07:34:18 GMT
+recorded_with: VCR 4.0.0
