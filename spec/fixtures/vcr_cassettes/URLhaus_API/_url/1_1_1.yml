@@ -1,0 +1,225 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://urlhaus-api.abuse.ch/v1/url/
+    body:
+      encoding: US-ASCII
+      string: url=http%3A%2F%2Fsskymedia.com%2FVMYB-ht_JAQo-gi%2FINV%2F99401FORPO%2F20673114777%2FUS%2FOutstanding-Invoices%2F
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - urlhaus-api.abuse.ch
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 25 May 2019 07:32:40 GMT
+      Server:
+      - Apache/2
+      Strict-Transport-Security:
+      - max-age=15768000 ; includeSubDomains
+      Feature-Policy:
+      - accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera
+        'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope
+        'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none';
+        picture-in-picture 'none'; speaker 'none'; usb 'none'; vr 'none'
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - 'default-src ''self''; script-src ''self''; img-src ''self'' data: https://www.google-analytics.com:443;
+        style-src ''self''; object-src ''none'''
+      Vary:
+      - Accept-Encoding
+      Cache-Control:
+      - max-age=300
+      Expires:
+      - Sat, 25 May 2019 07:37:40 GMT
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - sameorigin
+      Content-Length:
+      - '1662'
+      Content-Type:
+      - text/html
+    body:
+      encoding: ASCII-8BIT
+      string: |-
+        {
+            "query_status": "ok",
+            "id": "105821",
+            "urlhaus_reference": "https:\/\/urlhaus.abuse.ch\/url\/105821\/",
+            "url": "http:\/\/sskymedia.com\/VMYB-ht_JAQo-gi\/INV\/99401FORPO\/20673114777\/US\/Outstanding-Invoices\/",
+            "url_status": "offline",
+            "host": "sskymedia.com",
+            "date_added": "2019-01-19 01:33:26 UTC",
+            "threat": "malware_download",
+            "blacklists": {
+                "gsb": "not listed",
+                "spamhaus_dbl": "not listed",
+                "surbl": "not listed"
+            },
+            "reporter": "Cryptolaemus1",
+            "larted": "true",
+            "takedown_time_seconds": "225385",
+            "tags": [
+                "emotet",
+                "epoch2",
+                "heodo"
+            ],
+            "payloads": [
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "676860772178.doc",
+                    "file_type": "doc",
+                    "response_size": "172752",
+                    "response_md5": "cf6bc359bc8a667c1b8d241e9591f392",
+                    "response_sha256": "72820698de9b69166ab226b99ccf70f3f58345b88246f7d5e4e589c21dd44435",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/72820698de9b69166ab226b99ccf70f3f58345b88246f7d5e4e589c21dd44435\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "18 \/ 58",
+                        "percent": "31.03",
+                        "link": "https:\/\/www.virustotal.com\/file\/72820698de9b69166ab226b99ccf70f3f58345b88246f7d5e4e589c21dd44435\/analysis\/1547876224\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "PAY845086736936754.doc",
+                    "file_type": "doc",
+                    "response_size": "177744",
+                    "response_md5": "aa713b461bd1a4bc07aba59475c9e2b1",
+                    "response_sha256": "52f7d04f9b7c433f3bc6b4c105826a0a7cd472d06786d82693e150afaa3e2e23",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/52f7d04f9b7c433f3bc6b4c105826a0a7cd472d06786d82693e150afaa3e2e23\/",
+                    "signature": "Heodo",
+                    "virustotal": null
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "36985490218.doc",
+                    "file_type": "doc",
+                    "response_size": "181456",
+                    "response_md5": "a7342ea622b093753ee6177a94212613",
+                    "response_sha256": "a0ccb310c7ec618ab516be8b95923254a6724b1a03696ec6dbb6e47c60321391",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/a0ccb310c7ec618ab516be8b95923254a6724b1a03696ec6dbb6e47c60321391\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "12 \/ 55",
+                        "percent": "21.82",
+                        "link": "https:\/\/www.virustotal.com\/file\/a0ccb310c7ec618ab516be8b95923254a6724b1a03696ec6dbb6e47c60321391\/analysis\/1547845755\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "5616769081079106.doc",
+                    "file_type": "doc",
+                    "response_size": "179664",
+                    "response_md5": "fedfa8ad9ee7846b88c5da79b32f6551",
+                    "response_sha256": "dc9f3b226bccb2f1fd4810cde541e5a10d59a1fe683f4a9462293b6ade8d8403",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/dc9f3b226bccb2f1fd4810cde541e5a10d59a1fe683f4a9462293b6ade8d8403\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "16 \/ 58",
+                        "percent": "27.59",
+                        "link": "https:\/\/www.virustotal.com\/file\/dc9f3b226bccb2f1fd4810cde541e5a10d59a1fe683f4a9462293b6ade8d8403\/analysis\/1547871259\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "US6116512495185.doc",
+                    "file_type": "doc",
+                    "response_size": "173648",
+                    "response_md5": "184a31a2a84226db40a2359010fb1247",
+                    "response_sha256": "708ae9bc5ab9fe9adf5a8e58d628c4aff8a354e4e00b696d4e7773e8f19394d5",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/708ae9bc5ab9fe9adf5a8e58d628c4aff8a354e4e00b696d4e7773e8f19394d5\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "17 \/ 57",
+                        "percent": "29.82",
+                        "link": "https:\/\/www.virustotal.com\/file\/708ae9bc5ab9fe9adf5a8e58d628c4aff8a354e4e00b696d4e7773e8f19394d5\/analysis\/1547869092\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "ATT59595059794.doc",
+                    "file_type": "doc",
+                    "response_size": "175440",
+                    "response_md5": "769bac6c0bc7075e558a33cd821889ff",
+                    "response_sha256": "9d4d011096217e4102b187470576e13b58b67b23b61dbbd5be59b05270e0b339",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/9d4d011096217e4102b187470576e13b58b67b23b61dbbd5be59b05270e0b339\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "14 \/ 57",
+                        "percent": "24.56",
+                        "link": "https:\/\/www.virustotal.com\/file\/9d4d011096217e4102b187470576e13b58b67b23b61dbbd5be59b05270e0b339\/analysis\/1547846404\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "US5281773410494553512.doc",
+                    "file_type": "doc",
+                    "response_size": "175568",
+                    "response_md5": "3bb70b31d226e6873a9bf3a19f27a8e5",
+                    "response_sha256": "0d614d15d1f0e26054e06e19cf82856bafc2ce7f67d6c58defde8d437b6cb4c8",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/0d614d15d1f0e26054e06e19cf82856bafc2ce7f67d6c58defde8d437b6cb4c8\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "14 \/ 55",
+                        "percent": "25.45",
+                        "link": "https:\/\/www.virustotal.com\/file\/0d614d15d1f0e26054e06e19cf82856bafc2ce7f67d6c58defde8d437b6cb4c8\/analysis\/1547844480\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "US217913440.doc",
+                    "file_type": "doc",
+                    "response_size": "186192",
+                    "response_md5": "573e907b9b9d4cc514c59ae0edbd2b21",
+                    "response_sha256": "f793f983e7f6d60e462613722b467b6cbca6f2cb0102f950023200e7dd0563dc",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/f793f983e7f6d60e462613722b467b6cbca6f2cb0102f950023200e7dd0563dc\/",
+                    "signature": "Heodo",
+                    "virustotal": {
+                        "result": "14 \/ 58",
+                        "percent": "24.14",
+                        "link": "https:\/\/www.virustotal.com\/file\/f793f983e7f6d60e462613722b467b6cbca6f2cb0102f950023200e7dd0563dc\/analysis\/1547843773\/"
+                    }
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "ATT40920493555394942959.doc",
+                    "file_type": "doc",
+                    "response_size": "182480",
+                    "response_md5": "4eafb04de0942c88b53850d05bdf7cb1",
+                    "response_sha256": "fb23ad717efe161a8769351b6c2cfeb9039847f3875e0ad3942ca388d43f4785",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/fb23ad717efe161a8769351b6c2cfeb9039847f3875e0ad3942ca388d43f4785\/",
+                    "signature": "Heodo",
+                    "virustotal": null
+                },
+                {
+                    "firstseen": "2019-01-19",
+                    "filename": "ATT932454259403171471.doc",
+                    "file_type": "doc",
+                    "response_size": "174928",
+                    "response_md5": "12c8aec5766ac3e6f26f2505e2f4a8f2",
+                    "response_sha256": "01fa56184fcaa42b6ee1882787a34098c79898c182814774fd81dc18a6af0b00",
+                    "urlhaus_download": "https:\/\/urlhaus-api.abuse.ch\/v1\/download\/01fa56184fcaa42b6ee1882787a34098c79898c182814774fd81dc18a6af0b00\/",
+                    "signature": "Heodo",
+                    "virustotal": null
+                }
+            ]
+        }
+    http_version: 
+  recorded_at: Sat, 25 May 2019 07:32:40 GMT
+recorded_with: VCR 4.0.0
